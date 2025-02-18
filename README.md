@@ -4,11 +4,11 @@ The Fourier Transform of a function \( f(x) \) is defined as:
 \hat{f}(k) = \int_{-\infty}^{\infty} f(x) e^{-i k x} \, dx
 ```
 where:
-'''math
+```math
 - \( f(x) \) is the original function in the spatial domain,
 - \( \hat{f}(k) \) is the transformed function in the frequency domain,
 - \( k \) is the frequency variable.
-'''
+```
 The inverse Fourier Transform is given by:
 ```math
  f(x) = \frac{1}{2\pi} \int_{-\infty}^{\infty} \hat{f}(k) e^{i k x} \, dk
